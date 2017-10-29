@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name = 'fluid-idl'
+  s.name = 'fluid_idl'
   s.version = '0.0.0'
   s.date = '2017-10-18'
   s.summary = "Fluid | The Programmatic IDL"
