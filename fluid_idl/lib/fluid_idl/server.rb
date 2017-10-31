@@ -21,4 +21,18 @@ module FluidIDL
       }
     }
   end
+
+  def empty_env
+    { :parent => nil, :vars => Hash.new }
+  end
+
+  class Eval
+    def initialize(config, env)
+      @config = config
+      @env = env
+    end
+    def run(query)
+      return query["n"]
+    end
+  end
 end
